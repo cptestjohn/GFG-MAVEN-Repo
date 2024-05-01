@@ -53,7 +53,7 @@ pipeline
       {
         steps 
         {
-           echo 'CICD pipeline successfully completed!'
+           echo 'CICD pipeline successfully completed'
         }
       }
       
