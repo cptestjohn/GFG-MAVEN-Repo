@@ -22,6 +22,11 @@ public class MyCalculator {
 	{
 		System.out.println("hello gfg");
 	}
+	public void greeting()
+	{
+		System.out.println("Hello gfg world!");
+	}
+	
 	public static void main(String[] args) {
 		
 		MyCalculator calc=new MyCalculator();
@@ -29,7 +34,8 @@ public class MyCalculator {
 		System.out.println("Diff is :"+calc.diff(20, 10));
 		System.out.println("Mul is :"+calc.mul(20, 10));
 		System.out.println("Div is :"+calc.div(20, 10));
-		calc.show();  
+		calc.show();
+		calc.greeting();
 	}
 
 }
