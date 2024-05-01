@@ -24,6 +24,15 @@ pipeline
         }
       }
       
+      stage ('Test Stage')
+      {
+        steps 
+        {
+           bat 'mvn test'
+        }
+      }
+      
+      
        stage ('Build Stage')
       {
         steps 
@@ -39,6 +48,15 @@ pipeline
            echo 'build successfully completed'
         }
       }
+      
+       stage ('Final Stage')
+      {
+        steps 
+        {
+           echo 'CICD pipeline successfully completed'
+        }
+      }
+      
    }
 
 }
