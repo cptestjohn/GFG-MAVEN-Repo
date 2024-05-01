@@ -24,7 +24,7 @@ public class MyCalculator {
 	}
 	public void greeting()
 	{
-		System.out.println("hello gfg world");
+		System.out.println("hello gfg world!");
 	}
 	
 	public static void main(String[] args) {
