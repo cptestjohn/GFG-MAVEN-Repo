@@ -9,7 +9,7 @@ import demo.MyCalculator;
 public class MyCalculatorTest {
 
 	MyCalculator calc=new MyCalculator();
-	
+	//JUnit test cases
 	
 	@Test
 	public void testSum() {
