@@ -10,7 +10,7 @@ public class MyCalculatorTest {
 
 	MyCalculator calc=new MyCalculator();
 	
-	
+	//junit added
 	@Test
 	public void testSum() {
 		
